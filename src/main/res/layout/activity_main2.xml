@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+        <EditText
+            android:id="@+id/et_insert"
+            android:layout_width="160dp"
+            android:hint="请输入 id,name"
+            android:layout_height="wrap_content"
+            android:enabled="true"/>
+        <Button
+            android:id="@+id/btn_insert"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="插 入"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+        <EditText
+            android:id="@+id/et_deleat"
+            android:layout_width="160dp"
+            android:hint="请输入 id"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btn_deleat"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="删 除"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+        <EditText
+            android:id="@+id/et_update"
+            android:layout_width="160dp"
+            android:hint="要修改的 id,newName"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="修 改"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_query"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="查   询"/>
+
+    <TextView
+        android:id="@+id/tv_queryshow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
